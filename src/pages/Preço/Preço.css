@@ -1,0 +1,42 @@
+body{
+background-color: #FFD5C2;
+
+}
+
+.cabeça{
+background-color:#F28F3B ;
+height: 50px;
+display: flex;
+justify-content: start;
+align-items: center;
+
+}
+
+.cabeça a{
+
+margin-left: 150px;
+text-decoration: none;
+color: #000;
+font: 700 25px 'padaria';
+}
+
+table{
+
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 15px;
+    font-family: Mono;
+    margin-left: 70px;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+}
+
+
+tr:nth-child(2n){
+
+background-color: #F28F3B;    
+}
